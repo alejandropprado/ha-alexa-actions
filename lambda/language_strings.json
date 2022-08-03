@@ -1,21 +1,21 @@
 {
 	"en": {
-	    "ERROR_401": "It looks like I am unauthorized to reach home assistant, please check your account linking or your long lived access token and try again",
+		"ERROR_401": "It looks like I am unauthorized to reach home assistant, please check your account linking or your long lived access token and try again",
 		"ERROR_404": "It looks like I may not be able to find the input text entity. Please check that you've added it to home assistant and try again",
 		"ERROR_400": "Could not communicate with home assistant. Please check the Amazon CloudWatch logs in the custom skill developer console.",
-	    "ERROR_ACOUSTIC": "Sorry I did not catch that... <break time='200ms'/> {}",
+		"ERROR_ACOUSTIC": "Sorry I did not catch that... <break time='200ms'/> {}",
 		"ERROR_CONFIG": "Sorry, I am having trouble, please check your configuration, in the custom skill and try again.",
 		"ERROR_SPECIFIC_DATE": "Sorry, I can not do specific dates right now, try a duration instead, like... in 5 hours",
 		"HELP_MESSAGE": "This skill should be only reactively while triggered via home assistant.",
 		"OKAY": "Okay",
-		"STRING" : "You selected {}",
-		"SELECTED" : "You selected {}",
+		"STRING": "You selected {}",
+		"SELECTED": "You selected {}",
 		"SKILL_NAME": "home assistant custom actions",
 		"STOP_MESSAGE": "Goodbye!",
 		"WELCOME_MESSAGE": "Welcome to {}. Input text is: {}"
 	},
 	"de": {
-	    "ERROR_401": "Ich habe scheinbar keine Berechtigungen für die verbindung zu home assistant. Bitte prüfe deinen H A Benutzer oder Access Token.",
+		"ERROR_401": "Ich habe scheinbar keine Berechtigungen für die verbindung zu home assistant. Bitte prüfe deinen H A Benutzer oder Access Token.",
 		"ERROR_404": "Ich kann kein input text Objekt in home assistant finden. Bitte überprüfe ob du dieses bereits hinzugefügt hast.",
 		"ERROR_400": "Ich kann keine Verbindung zum home assistant vornehmen. Bitte prüfe die Amazon CloudWatch logdateien in der Alexa Entwickler Console.",
 		"ERROR_ACOUSTIC": "Das habe ich leider nicht verstanden... <break time='200ms'/> {}",
@@ -23,8 +23,8 @@
 		"ERROR_SPECIFIC_DATE": "Ich kann leider noch kein spezifisches Datum verarbeiten. Bitte nutze stattedessen Zeiträume wie beispielsweise... in 5 Stunden.",
 		"HELP_MESSAGE": "Dieser Skill sollte nur reaktiv genutzt werden, wenn er via home assistant angestossen wird",
 		"OKAY": "Okay",
-		"STRING" : "Du hast {} gewählt",
-		"SELECTED" : "Du hast {} gewählt",
+		"STRING": "Du hast {} gewählt",
+		"SELECTED": "Du hast {} gewählt",
 		"SKILL_NAME": "home assistant custom actions",
 		"STOP_MESSAGE": "Machs gut!",
 		"WELCOME_MESSAGE": "Willkommen bei {}. Der input text ist: {}"
@@ -43,31 +43,31 @@
 		"SKILL_NAME": "home assistant custom actions",
 		"STOP_MESSAGE": "Au revoir!",
 		"WELCOME_MESSAGE": "Bienvenue sur {}. Le champ texte est: {}"
-  },
-  "ft-FR": {
-    "SKILL_NAME": "home assistant custom actions"
-  },
-  "fr-CA": {
-    "SKILL_NAME": "home assistant custom actions"
-  },
+	},
+	"ft-FR": {
+		"SKILL_NAME": "home assistant custom actions"
+	},
+	"fr-CA": {
+		"SKILL_NAME": "home assistant custom actions"
+	},
 	"it": {
-	    "ERROR_401": "Problema con le autorizzazioni di accesso ad Home Assistant: controllare l'account collegato o eventuali token utilizzati e riprovare",
+		"ERROR_401": "Problema con le autorizzazioni di accesso ad Home Assistant: controllare l'account collegato o eventuali token utilizzati e riprovare",
 		"ERROR_404": "Impossibile accedere all'input_text. Controllare di averlo aggiunto correttamente ad Home Assistant come indicato nelle istruzioni e riprovare",
 		"ERROR_400": "Impossibile accedere ad Home Assistant. Controllare i logs su Amazon CloudWatch nella custom skill developer console.",
-	    "ERROR_ACOUSTIC": "Mi dispiace, non ho capito... <break time='200ms'/> {}",
+		"ERROR_ACOUSTIC": "Mi dispiace, non ho capito... <break time='200ms'/> {}",
 		"ERROR_CONFIG": "Mi dispiace, c'e' qualche problema, per favore controlla la configurazione della custom skill e riprova.",
 		"ERROR_SPECIFIC_DATE": "Mi dispiace, non riesco a usare date specifiche in questo caso, prova con una data relative, ad esempio... tra 5 ore",
 		"HELP_MESSAGE": "Questa skill dovrebbe rispondere solo quando attivata da Home Assistant.",
 		"OKAY": "Okay",
-		"STRING" : "Hai selezionato {}",
-		"SELECTED" : "Hai selezionato {}",
+		"STRING": "Hai selezionato {}",
+		"SELECTED": "Hai selezionato {}",
 		"SKILL_NAME": "Home Assistant Austom Actions",
 		"STOP_MESSAGE": "A presto!",
 		"WELCOME_MESSAGE": "Benvenuto su {}. Il testo specificato e': {}"
-  },
-  "it-IT": {
-    "SKILL_NAME": "Home Assistant Austom Actions"
-  },
+	},
+	"it-IT": {
+		"SKILL_NAME": "Home Assistant Austom Actions"
+	},
 	"pt": {
 		"ERROR_401": "Parece que eu não estou autorizada a acessar seu Home Assistant. Verifique as credenciais e tente novamente.",
 		"ERROR_404": "Parece que você não configurou a entidade de entrada de texto corretamente. Verifique se ela está disponível e tente novamente",
@@ -85,5 +85,23 @@
 	},
 	"pt-BR": {
 		"SKILL_NAME": "home Assistant, ações customizadas"
+	},
+	"es": {
+		"ERROR_401": "Parece que no tengo autorización para comunicarme con el asistente de inicio, verifique la vinculación de su cuenta o su token de acceso de larga duración e intente nuevamente",
+		"ERROR_404": "Parece que no puedo encontrar la entidad de texto de entrada. Verifica que la hayas agregado a Home Assistant e inténtalo de nuevo",
+		"ERROR_400": "No se pudo comunicar con el asistente doméstico. Verifique los registros de Amazon CloudWatch en la consola del desarrollador de habilidades personalizadas",
+		"ERROR_ACOUSTIC": "Lo siento, no entendí eso... <tiempo de descanso='200ms'/> {}",
+		"ERROR_CONFIG": "Lo siento, tengo problemas. Por favor, revisa tu configuración, en la habilidad personalizada e inténtalo de nuevo",
+		"ERROR_SPECIFIC_DATE": "Lo siento, no puedo hacer fechas específicas en este momento, prueba con una duración, como... en 5 horas",
+		"HELP_MESSAGE": "Esta habilidad solo debe ser reactiva mientras se activa a través del asistente doméstico",
+		"OKAY": "Está bien",
+		"STRING": "Has seleccionado {}",
+		"SELECTED": "Usted seleccionó {}",
+		"SKILL_NAME": "Acciones personalizadas para Home Assistant",
+		"STOP_MESSAGE": "¡Adiós!",
+		"WELCOME_MESSAGE": "Bienvenido a {}. El texto de entrada es: {}"
+	},
+	"es-MX": {
+		"SKILL_NAME": "Acciones personalizadas para Home Assistant"
 	}
 }
